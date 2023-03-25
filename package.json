@@ -2,6 +2,7 @@
   "name": "notes-app-back-end",
   "packageManager": "yarn@3.5.0",
   "scripts": {
+    "start": "NODE_ENV=production node ./src/server.js",
     "dev": "nodemon ./src/server.js",
     "lint": "eslint ./"
   },
